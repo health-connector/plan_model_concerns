@@ -4,4 +4,6 @@ PlanModelConcerns.configure do |config|
   class PlanModelConcerns::TimeKeeper < TimeKeeper
   end
 
+  class PlanModelConcerns::Organization < Organization
+  end
 end
