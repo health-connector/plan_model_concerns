@@ -1,3 +1,3 @@
 class PremiumTable
-  include PlanModelConcerns::PremiumTableConcern
+  include PremiumTableConcern
 end

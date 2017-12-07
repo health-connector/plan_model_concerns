@@ -1,0 +1,3 @@
+class EmployerGroupSizeRatingFactorSet < RatingFactorSet
+  include EmployerGroupSizeRatingFactorSetConcern
+end

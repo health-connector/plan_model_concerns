@@ -1,6 +1,6 @@
 gem 'plan_model_concerns', path:  File.expand_path("../../../..", __FILE__)
-#gem 'location_model_concerns', path: "~/Work/mass/location_model_concerns"
-#gem 'core_model_concerns', path: "~/Work/mass/core_model_concerns"
+# gem 'location_model_concerns', path: "~/Work/mass/location_model_concerns"
+# gem 'core_model_concerns', path: "~/Work/mass/core_model_concerns"
 
 gem 'core_model_concerns', git: 'https://github.com/health-connector/core_model_concerns'
 gem 'location_model_concerns', git: 'https://github.com/health-connector/location_model_concerns'
@@ -8,7 +8,7 @@ gem 'location_model_concerns', git: 'https://github.com/health-connector/locatio
 gem 'acapi', git: "https://github.com/dchbx/acapi.git", branch: 'development'
 gem "config", '~> 1.0.0'
 gem 'aasm', '~> 4.8.0'
-
+gem 'forgery'
 group :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'

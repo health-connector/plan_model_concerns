@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'mongo', '2.1.2'
   s.add_dependency 'mongoid', '5.0.1'
   s.add_dependency 'mongoid_userstamp'
+  s.add_dependency 'mongoid-versioning'
   s.add_dependency "mongoid-autoinc"
   s.add_dependency 'money-rails', '~> 1.3.0'
   s.add_dependency "mongoid-enum"

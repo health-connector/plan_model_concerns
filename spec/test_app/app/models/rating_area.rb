@@ -1,3 +1,3 @@
 class RatingArea
-  include PlanModelConcerns::RatingAreaConcern
+  include RatingAreaConcern
 end

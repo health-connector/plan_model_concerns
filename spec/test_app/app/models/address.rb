@@ -1,3 +1,3 @@
 class Address
-  include LocationModelConcerns::AddressConcern
+  include AddressConcern
 end
